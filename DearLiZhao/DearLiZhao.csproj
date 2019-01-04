@@ -57,7 +57,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="article.html" />
+    <Content Include="birthday.html" />
     <Content Include="index.html" />
+    <Content Include="muiGetImg-master\css\cropper.min.css" />
+    <Content Include="muiGetImg-master\css\mui.css" />
+    <Content Include="muiGetImg-master\css\mui.min.css" />
+    <Content Include="muiGetImg-master\image\2x.png" />
+    <Content Include="muiGetImg-master\index.html" />
+    <Content Include="muiGetImg-master\js\cropper.min.js" />
+    <Content Include="muiGetImg-master\js\getImgs.js" />
+    <Content Include="muiGetImg-master\js\mui.js" />
+    <Content Include="muiGetImg-master\js\mui.min.js" />
+    <Content Include="record.html" />
     <Content Include="renxi.mp3" />
     <Content Include="renxi\default.css" />
     <Content Include="renxi\functions.js" />
@@ -69,12 +81,64 @@
     <Content Include="renxi\jscex-parser.js" />
     <Content Include="renxi\jscex.min.js" />
     <Content Include="renxi\love.js" />
+    <Content Include="static\css\about.css" />
+    <Content Include="static\css\base.css" />
+    <Content Include="static\css\book.css" />
+    <Content Include="static\css\index.css" />
+    <Content Include="static\css\learn.css" />
+    <Content Include="static\css\lrtk.css" />
+    <Content Include="static\css\m.css" />
+    <Content Include="static\css\msh.css" />
+    <Content Include="static\css\popups-style.css" />
+    <Content Include="static\css\shcoredefault.css" />
+    <Content Include="static\images\articlebg.png" />
+    <Content Include="static\images\banner_top.jpg" />
+    <Content Include="static\images\bell.ico" />
+    <Content Include="static\images\chat.png" />
+    <Content Include="static\images\dtime.png" />
+    <Content Include="static\images\search.png" />
+    <Content Include="static\images\title.png" />
+    <Content Include="static\images\top.jpg" />
+    <Content Include="static\images\yu.png" />
+    <Content Include="static\js\changyan.labs.https.js" />
+    <Content Include="static\js\changyan_mobile.js" />
+    <Content Include="static\js\jquery-1.10.2.min.js" />
+    <Content Include="static\js\jquery.js" />
+    <Content Include="static\js\modernizr.js" />
+    <Content Include="static\js\popups.js" />
+    <Content Include="static\js\scrollreveal.js" />
+    <Content Include="static\js\shcore.js" />
+    <Content Include="static\picture\01118af67d4552a0a9a399741ed5dc4b.jpg" />
+    <Content Include="static\picture\0eab82191deef03c560d35335645b466.jpg" />
+    <Content Include="static\picture\17d3ce0494728a3bcb45220b7a6152c1.jpg" />
+    <Content Include="static\picture\2c395ac1612951773d124c554937df17.jpg" />
+    <Content Include="static\picture\30cd6c3f35f4e70ea522c7b80db5417c.jpg" />
+    <Content Include="static\picture\32cdb172564dfcaf3e2575cd2d3a85f9.jpg" />
+    <Content Include="static\picture\3302038321a36491aeee66ae5e93eefa.jpg" />
+    <Content Include="static\picture\3e9a56ec35beaac369625ae975049cef.jpg" />
+    <Content Include="static\picture\4cd7748a0c1fbeb476a99864aeea1f99.jpg" />
+    <Content Include="static\picture\4e82bbfbaf3ede2a69340f0b6e72cecb.jpg" />
+    <Content Include="static\picture\598755dfd7a5bc942c0c9b28e4283df5.jpg" />
+    <Content Include="static\picture\5e50e641ca4663ba3a82824f9bb3d985.jpg" />
+    <Content Include="static\picture\7c24b1b7b127c0ac72feaf182dc5f05d.jpg" />
+    <Content Include="static\picture\boy.jpg" />
+    <Content Include="static\picture\button_11.gif" />
+    <Content Include="static\picture\c2bba2dbfd96084f4cccabcdef92d65b.jpg" />
+    <Content Include="static\picture\c44a212ea2f6d7157f38d40439193e93.jpg" />
+    <Content Include="static\picture\f7863534e87db9039a52b8556868a718.jpg" />
+    <Content Include="static\picture\fe148174719d230c71177e25e1702b9e.jpg" />
+    <Content Include="static\picture\logo.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="muiGetImg-master\.project" />
+    <Content Include="muiGetImg-master\fonts\mui.ttf" />
+    <Content Include="muiGetImg-master\manifest.json" />
+    <Content Include="muiGetImg-master\README.md" />
+    <Content Include="muiGetImg-master\unpackage\.confirmed_dependencies" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
