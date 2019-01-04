@@ -1,0 +1,236 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>亲爱的李朝呀</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="亲切的李朝呀，个人相册，博客，亲切的李朝" />
+    <meta name="description" content="亲切的李朝呀，个人相册，博客，亲切的李朝，主要用于李朝的个人网上云相册。" />
+    <link rel="icon" href="static/images/bell.ico" type="image/x-icon">
+    <link href="/static/css/base.css" rel="stylesheet">
+    <link href="/static/css/about.css" rel="stylesheet">
+    <link href="/static/css/m.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="static/js/modernizr.js"></script>
+    <![endif]-->
+    <script src="/static/js/scrollreveal.js"></script>
+    <script src="/static/js/jquery-1.10.2.min.js"></script>
+    <style>
+        /* 让百度编辑器ueditor的高亮代码自动适应设备宽度及自动换行 */
+        .syntaxhighlighter {
+            word-break: break-all;
+        }
+        /*去畅言广告*/
+        #pop_ad {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo" data-scroll-reveal="enter right over 1s" data-scroll-reveal-id="1" style="-webkit-transform: translatex(0); transform: translatex(0); opacity: 1; -webkit-transition: -webkit-transform 1s ease-in-out 0s,  opacity 1s ease-in-out 0s; transition: transform 1s ease-in-out 0s, opacity 1s ease-in-out 0s; -webkit-perspective: 1000; -webkit-backface-visibility: hidden;" data-scroll-reveal-initialized="true">
+            <a href="/">
+                <img src="/static/images/title.png"></a>
+        </div>
+        <!--<nav class="topnav" data-scroll-reveal="enter bottom over 1s after 1s">
+            <a href="/"><span>首页</span><span class="en">Home</span></a>
+            <a href="/php.html"><span>PHP技术</span><span class="en">php</span></a>
+            <a href="/mysql.html"><span>MySQL技术</span><span class="en">mysql</span></a>
+            <a href="/web.html"><span>WEB前端</span><span class="en">web</span></a>
+            <a href="/cache.html"><span>缓存技术</span><span class="en">cache</span></a>
+            <a href="/linux.html"><span>Linux技术</span><span class="en">linux</span></a>
+            <a href="/record.html"><span>闲言碎语</span><span class="en">record</span></a>
+        </nav>-->
+    </header>
+    <style type="text/css">
+        .snow-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 100001;
+        }
+    </style>
+    <div class="snow-container"></div>
+
+    <script>
+        // 百度统计
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?a1e021c41f04977059b812159f7b163f";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script>
+        // 百度 SEO    
+        (function () {
+            var bp = document.createElement('script');
+            var curProtocol = window.location.protocol.split(':')[0];
+            if (curProtocol === 'https') {
+                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+            }
+            else {
+                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+            }
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })();
+    </script>
+    <script>
+        // 360 SEO
+        (function () {
+            var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?cba734164b6273176467278f328ffd65" : "https://jspassport.ssl.qhimg.com/11.0.1.js?cba734164b6273176467278f328ffd65";
+            document.write('<script src="' + src + '" id="sozz"><\/script>');
+        })();
+    </script>
+    <script src="/static/js/shcore.js"></script>
+    <link href="/static/css/shcoredefault.css" rel="stylesheet">
+    <article>
+        <div class="container">
+            <div class="about left">
+
+                <h4 class="atitle"><span>2018-11-29</span>在phpstorm中设置Laravel框架代码提示——laravel-ide-helper</h4>
+                <p class="newsnav">您现在的位置是: <a href="/">首页</a>&nbsp;>&nbsp;<a href="/php.html">PHP技术</a>&nbsp;>&nbsp;<a href="/php/132.html">在phpstorm中设置Laravel框架代码提示——laravel-ide-helper</a></p>
+                <div>27次阅读</div>
+                <div style="border: 1px solid #ddd; padding: 10px; margin: 20px 10px;">
+
+                    <p>
+                        <br>
+                    </p>
+                    <h3>一、建议先修改 composer 的全局配置文件为国内镜像</h3>
+                    <p>
+                        <br>
+                    </p>
+                    <p>因为composer服务在国外，在国内用composer时会比较慢，建议把composer服务配置成国内的，打开命令行窗口（windows用户）或控制台（Linux、Mac 用户）并执行如下命令：</p>
+                    <pre class="brush:bash;toolbar:false">composer config -g repo.packagist composer https://packagist.phpcomposer.com</pre>
+                    <p>
+                        <br>
+                    </p>
+                    <p>上述命令将会在当前项目中的 composer.json 文件的末尾自动添加镜像的配置信息（你也可以自己手工添加）：</p>
+                    <pre class="brush:js;toolbar:false">"repositories": {
+    "packagist": {
+        "type": "composer",
+        "url": "https://packagist.phpcomposer.com"
+    }
+}</pre>
+                    <p>
+                        <br>
+                    </p>
+                    <h3>二、获取laravel-ide-helper扩展包</h3>
+                    <p>
+                        <br>
+                    </p>
+                    <p>方法一、首先打开控制台，输入cd命令切换到项目根目录下，使用 composer 命令获取扩展包：</p>
+                    <pre class="brush:bash;toolbar:false">composer require barryvdh/laravel-ide-helper</pre>
+                    <p>
+                        <br>
+                    </p>
+                    <p>方法二、找到项目composer.json，在require的值里面添加 "barryvdh/laravel-ide-helper":"dev-master"，然后执行 composer update 命令</p>
+                    <pre class="brush:bash;toolbar:false">"require": {
+    "php": "&gt;=7.0.0",
+    "fideloper/proxy": "~3.3",
+    "laravel/framework": "5.5.*",
+    "laravel/tinker": "~1.0"，
+    "barryvdh/laravel-ide-helper": "^2.5"
+},</pre>
+                    <p>
+                        <br>
+                    </p>
+                    <h3>三、打开项目config/app.php 于providers添加如下一行</h3>
+                    <p>
+                        <br>
+                    </p>
+                    <pre class="brush:bash;toolbar:false">Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,</pre>
+                    <p>
+                        <br>
+                    </p>
+                    <h3>四、执行 php artisan ide-helper:generate 命令</h3>
+                    <p>
+                        <br>
+                    </p>
+                    <p>最后会在根目录生成一个_ide_helper.php文件。</p>
+                </div>
+
+
+                <!--PC和WAP自适应版-->
+                <div style="padding: 10px; margin: 20px 10px; text-align: center;">
+                    <div id="cyReward" role="cylabs" data-use="reward" style="margin: 10px;"></div>
+                    <div id="SOHUCS" sid="132" style="border: 1px solid #e3e197; background: #ffffdd"></div>
+                </div>
+                <script type="text/javascript" charset="utf-8" src="static/js/jquery.js"></script>
+                <script type="text/javascript" charset="utf-8" src="static/js/changyan.labs.https.js"></script>
+                <script type="text/javascript">
+                    (function () {
+                        var appid = 'cytBC9s7A';
+                        var conf = 'prod_1cce92bc4aaf2d2fc988e230be28733e';
+                        var width = window.innerWidth || document.documentElement.clientWidth;
+                        if (width < 960) {
+                            window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="static/js/changyan_mobile.js' + appid + '&conf=' + conf + '"><\/script>');
+                        } else { var loadJs = function (d, a) { var c = document.getElementsByTagName("head")[0] || document.head || document.documentElement; var b = document.createElement("script"); b.setAttribute("type", "text/javascript"); b.setAttribute("charset", "UTF-8"); b.setAttribute("src", d); if (typeof a === "function") { if (window.attachEvent) { b.onreadystatechange = function () { var e = b.readyState; if (e === "loaded" || e === "complete") { b.onreadystatechange = null; a() } } } else { b.onload = a } } c.appendChild(b) }; loadJs("https://www.cgtblog.com/skin/default/js/changyan/changyan.js", function () { window.changyan.api.config({ appid: appid, conf: conf }) }); }
+                    })();
+                </script>
+
+
+                <div class="nextinfo">
+                    <p>上一篇：<a href="/php/131.html">在php中使用 switch 语句，如果漏写 break</a></p>
+                </div>
+
+                <div class="otherlink">
+                    <h2>相关文章</h2>
+                    <ul>
+                        <li><a href="/php/1.html" title="php自定义快递查询API类(支持各种快递的查询)">php自定义快递查询API类(支持各种快递的查询)</a></li>
+                        <li><a href="/php/4.html" title="tp5设置404页面">tp5设置404页面</a></li>
+                        <li><a href="/php/13.html" title="PHP取整数函数">PHP取整数函数</a></li>
+                        <li><a href="/php/22.html" title="PHP生成随机图形验证码，点击实现切换">PHP生成随机图形验证码，点击实现切换</a></li>
+                        <li><a href="/php/23.html" title="php概率算法,php抽奖概率算法,php 中奖概率算法,php 抢红包 概率算法,php中奖概率 权重算法">php概率算法,php抽奖概率算法,php 中奖概率算法,php 抢红包 概率算法,php中奖概率 权重算法</a></li>
+                        <li><a href="/php/25.html" title="PHP获取零点的时间戳">PHP获取零点的时间戳</a></li>
+                        <li><a href="/php/27.html" title="PHP CURL异步将远程链接上的内容(图片或内容)写到本地">PHP CURL异步将远程链接上的内容(图片或内容)写到本地</a></li>
+                        <li><a href="/php/28.html" title="数据库中id字段或数值型的加密解密类">数据库中id字段或数值型的加密解密类</a></li>
+                        <li><a href="/php/29.html" title="php  微信公众号发送消息模板">php  微信公众号发送消息模板</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        </aside>
+    </article>
+    <footer>
+        Design by 亲切的青牛 &nbsp;&nbsp;
+    <a target="_blank" href="https://wpa.qq.com/msgrd?v=3&uin=2951312994&site=qq&menu=yes">
+        <img border="0" src="static/picture/button_11.gif" alt="点击这里给我发消息" title="点击这里给我发消息" style="display: inline;" />
+    </a>
+        &nbsp;&nbsp;
+    <a href="javascript:void(0);">皖ICP备XXXXXX </a>
+        &nbsp;&nbsp;
+    <!--<a href="https://github.com/wangzhili-cn" target="_blank">GitHub </a>
+        &nbsp;&nbsp;-->
+        <!--<a href="https://www.whmblog.cn/sitemap.txt" target="_blank">sitemap </a>
+        &nbsp;&nbsp;-->
+        <!--<a href="https://www.yangqq.com/" target="_blank">杨青个人博客 </a>-->
+    </footer>
+
+    <script>
+        if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+            (function () {
+                window.scrollReveal = new scrollReveal({ reset: true });
+            })();
+        };
+        SyntaxHighlighter.all(); //执行代码高亮
+        // 修复行号错位问题
+        if (!$(this).hasClass("nogutter")) {
+            var $gutter = $($(this).find(".gutter")[0]);
+            var $codeLines = $($(this).find(".code .line"));
+            $gutter.find(".line").each(function (i) {
+                $(this).height($($codeLines[i]).height());
+                $($codeLines[i]).height($($codeLines[i]).height());
+            });
+        }
+
+    </script>
+</body>
+</html>

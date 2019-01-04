@@ -57,20 +57,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="article.html" />
-    <Content Include="birthday.html" />
+    <Content Include="article\article.html" />
+    <Content Include="article\birthday.html" />
+    <Content Include="article\newyear.html" />
+    <Content Include="article\newyear\1.2.jpg" />
+    <Content Include="article\newyear\12.301.jpg" />
+    <Content Include="article\newyear\12.302.jpg" />
+    <Content Include="article\newyear\12.303.jpg" />
+    <Content Include="article\newyear\12.304.jpg" />
     <Content Include="index.html" />
-    <Content Include="muiGetImg-master\css\cropper.min.css" />
-    <Content Include="muiGetImg-master\css\mui.css" />
-    <Content Include="muiGetImg-master\css\mui.min.css" />
-    <Content Include="muiGetImg-master\image\2x.png" />
-    <Content Include="muiGetImg-master\index.html" />
-    <Content Include="muiGetImg-master\js\cropper.min.js" />
-    <Content Include="muiGetImg-master\js\getImgs.js" />
-    <Content Include="muiGetImg-master\js\mui.js" />
-    <Content Include="muiGetImg-master\js\mui.min.js" />
     <Content Include="record.html" />
-    <Content Include="renxi.mp3" />
+    <Content Include="music\renxi.mp3" />
     <Content Include="renxi\default.css" />
     <Content Include="renxi\functions.js" />
     <Content Include="renxi\jquery.min.js" />
@@ -99,6 +96,7 @@
     <Content Include="static\images\search.png" />
     <Content Include="static\images\title.png" />
     <Content Include="static\images\top.jpg" />
+    <Content Include="static\images\topPic.jpg" />
     <Content Include="static\images\yu.png" />
     <Content Include="static\js\changyan.labs.https.js" />
     <Content Include="static\js\changyan_mobile.js" />
@@ -134,11 +132,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="muiGetImg-master\.project" />
-    <Content Include="muiGetImg-master\fonts\mui.ttf" />
-    <Content Include="muiGetImg-master\manifest.json" />
-    <Content Include="muiGetImg-master\README.md" />
-    <Content Include="muiGetImg-master\unpackage\.confirmed_dependencies" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -146,6 +139,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
