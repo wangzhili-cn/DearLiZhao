@@ -90,6 +90,10 @@
     <Content Include="static\css\msh.css" />
     <Content Include="static\css\popups-style.css" />
     <Content Include="static\css\shcoredefault.css" />
+    <Content Include="static\images\snowfall1.png" />
+    <Content Include="static\images\snowfall2.png" />
+    <Content Include="static\images\snowfall3.png" />
+    <Content Include="static\images\snowfall4.png" />
     <Content Include="static\images\articlebg.png" />
     <Content Include="static\images\banner_top.jpg" />
     <Content Include="static\images\bell.ico" />
@@ -109,6 +113,7 @@
     <Content Include="static\js\popups.js" />
     <Content Include="static\js\scrollreveal.js" />
     <Content Include="static\js\shcore.js" />
+    <Content Include="static\js\snowfall.jquery.js" />
     <Content Include="static\picture\01118af67d4552a0a9a399741ed5dc4b.jpg" />
     <Content Include="static\picture\0eab82191deef03c560d35335645b466.jpg" />
     <Content Include="static\picture\17d3ce0494728a3bcb45220b7a6152c1.jpg" />
