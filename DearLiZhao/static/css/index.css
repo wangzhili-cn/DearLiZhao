@@ -35,3 +35,5 @@ a.readmore { background: #075498; color: #fff; padding: 5px 10px; float: right; 
 .cbp_tmtimeline li:hover .cbp_tmtime { background: #afdcf8; border-radius: 20px 0 0 20px; }
 .cbp_tmtimeline li:hover .cbp_tmtime span { color: #fff; }
 
+.content-img {width: 400px;height: 400px;float: left;margin: 30px;}
+

@@ -24,6 +24,7 @@ nav { margin-bottom: 20px; }
 .blogpic img { margin-bottom: 10px }
 .blog figure { margin: 5px auto; width: 90%; overflow: hidden; }
 .banner, .memorial_day, .ctitle span { display: none; }
+.content-img {width: 400px;height: 400px;float: left;margin: 0px; margin-bottom:5px;}
 a.readmore { display: block; text-align: center; float: none; }
 .rnav { padding-left: 30px; }
 .gbko { margin: 0px; padding: 5px }
