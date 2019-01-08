@@ -65,7 +65,9 @@
     <Content Include="article\newyear\12.302.jpg" />
     <Content Include="article\newyear\12.303.jpg" />
     <Content Include="article\newyear\12.304.jpg" />
+    <Content Include="article\wechart.html" />
     <Content Include="index.html" />
+    <Content Include="music\nextsecond.mp3" />
     <Content Include="record.html" />
     <Content Include="music\room.mp3" />
     <Content Include="room\default.css" />
@@ -96,7 +98,8 @@
     <Content Include="static\images\search.png" />
     <Content Include="static\images\title.png" />
     <Content Include="static\images\top.jpg" />
-    <Content Include="static\images\topPic.jpg" />
+    <Content Include="static\images\topPic1.jpg" />
+    <Content Include="static\images\topPic2.jpg" />
     <Content Include="static\images\yu.png" />
     <Content Include="static\js\changyan.labs.https.js" />
     <Content Include="static\js\changyan_mobile.js" />
@@ -129,6 +132,7 @@
     <Content Include="Web.config" />
     <Content Include="test\index2.html" />
     <Content Include="wechart\logo.png" />
+    <Content Include="wechart\wechartCode.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

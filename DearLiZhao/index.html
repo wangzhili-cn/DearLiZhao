@@ -31,16 +31,12 @@
 <body>
     <header>
         <div class="logo" data-scroll-reveal="enter right over 1s" data-scroll-reveal-id="1" style="-webkit-transform: translatex(0); transform: translatex(0); opacity: 1; -webkit-transition: -webkit-transform 1s ease-in-out 0s,  opacity 1s ease-in-out 0s; transition: transform 1s ease-in-out 0s, opacity 1s ease-in-out 0s; -webkit-perspective: 1000; -webkit-backface-visibility: hidden;" data-scroll-reveal-initialized="true">
-            <a href="/">
+            <a href="index.html">
                 <img src="static/images/title.png"></a>
         </div>
         <nav class="topnav" data-scroll-reveal="enter bottom over 1s after 1s">
             <a href="/"><span style="color: #f96363">We</span><span class="en" style="color: #f96363">Phote</span></a>
             <a href="/record.html"><span>秘密花园</span><span class="en">record</span></a>
-            <!--                    <a href="/mysql.html"><span></span><span class="en">mysql</span></a>
-                    <a href="/web.html"><span>WEB前端</span><span class="en">web</span></a>
-                    <a href="/cache.html"><span>缓存技术</span><span class="en">cache</span></a>
-                    <a href="/linux.html"><span>Linux技术</span><span class="en">linux</span></a>-->
         </nav>
     </header>
     <style type="text/css">
@@ -53,43 +49,10 @@
             pointer-events: none;
             z-index: 100001;
         }
-
-        
     </style>
     <div class="snow-container"></div>
 
-    <script>
-        // 百度统计
-        var _hmt = _hmt || [];
-        (function () {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?a1e021c41f04977059b812159f7b163f";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
-    <script>
-        // 百度 SEO    
-        (function () {
-            var bp = document.createElement('script');
-            var curProtocol = window.location.protocol.split(':')[0];
-            if (curProtocol === 'https') {
-                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-            }
-            else {
-                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-            }
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(bp, s);
-        })();
-    </script>
-    <!-- <script>
-        // 360 SEO
-        (function () {
-            var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?cba734164b6273176467278f328ffd65" : "https://jspassport.ssl.qhimg.com/11.0.1.js?cba734164b6273176467278f328ffd65";
-            document.write('<script src="' + src + '" id="sozz"><\/script>');
-        })();
-    </script>-->
+    <!-- 开头显示文字-->
     <article>
         <div class="container">
             <div class="banner">
@@ -121,50 +84,5 @@
         &nbsp;&nbsp;-->
         <!--<a href="https://www.yangqq.com/" target="_blank">杨青个人博客 </a>-->
     </footer>
-    <!-- 收索按钮-->
-    <!--<div id="tbox">
-    <a id="search" href="javascript:void(0)" style="display: block;"></a>
-    <a id="togbook" target="_blank" href="https://wpa.qq.com/msgrd?v=3&uin=2723799321&site=qq&menu=yes"></a>
-    </div>-->
-
-    <!--    <script>
-
-        // 搜索样式
-        setSize();
-        addEventListener('resize', setSize);
-        function setSize() {
-            document.documentElement.style.fontSize = document.documentElement.clientWidth / 750 * 100 + 'px';
-        }
-
-        if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
-            (function () {
-                window.scrollReveal = new scrollReveal({ reset: true });
-            })();
-
-            $('#search').click(function () {
-
-                jqalert({
-                    title: '提示',
-                    prompt: '请输入你要搜索的关键词?',
-                    yestext: '提交',
-                    notext: '取消',
-                    yesfn: function (e) {
-                        // jqtoast('提交成功');
-                        var keyword = $('.prompt-text').val();
-                        if ($.trim(keyword) == '') {
-                            jqtoast('请输入搜索关键词');
-                            return;
-                        }
-                        location.href = 'https://' + window.location.host + '/search?keyword=' + keyword;
-                    },
-                    nofn: function () {
-                        jqtoast('你点击了取消');
-                    }
-                })
-            });
-
-        };
-    </script>-->
-
 </body>
 </html>
