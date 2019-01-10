@@ -67,6 +67,36 @@
     <Content Include="article\newyear\12.304.jpg" />
     <Content Include="article\wechart.html" />
     <Content Include="index.html" />
+    <Content Include="main\admin\admin.htm" />
+    <Content Include="main\admin\blogManagement.htm" />
+    <Content Include="main\admin\index.htm" />
+    <Content Include="main\admin\linkManagement.htm" />
+    <Content Include="main\admin\typeManagement.htm" />
+    <Content Include="main\css\bootstrap-datetimepicker.min.css" />
+    <Content Include="main\css\bootstrap-theme.css" />
+    <Content Include="main\css\bootstrap.css" />
+    <Content Include="main\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="main\img\facebook.png" />
+    <Content Include="main\img\github.png" />
+    <Content Include="main\img\phone.png" />
+    <Content Include="main\img\QQ.png" />
+    <Content Include="main\img\topPhoto.jpg" />
+    <Content Include="main\img\window.png" />
+    <Content Include="main\img\zhihu.png" />
+    <Content Include="main\js\bootstrap-datetimepicker.fr.js" />
+    <Content Include="main\js\bootstrap-datetimepicker.min.js" />
+    <Content Include="main\js\bootstrap.js" />
+    <Content Include="main\js\bootstrap.min.js" />
+    <Content Include="main\js\echarts.js" />
+    <Content Include="main\js\jquery.min.js" />
+    <Content Include="main\js\macarons.js" />
+    <Content Include="main\js\markdown.min.js" />
+    <Content Include="main\js\npm.js" />
+    <Content Include="main\views\about.htm" />
+    <Content Include="main\views\bloginfo.htm" />
+    <Content Include="main\views\bloglist.htm" />
+    <Content Include="main\views\contact.htm" />
+    <Content Include="main\views\index.htm" />
     <Content Include="music\nextsecond.mp3" />
     <Content Include="record.html" />
     <Content Include="music\room.mp3" />
@@ -80,6 +110,7 @@
     <Content Include="room\jscex-parser.js" />
     <Content Include="room\jscex.min.js" />
     <Content Include="room\love.js" />
+    <Content Include="sqlserver\DB_dearlizhao.sql" />
     <Content Include="static\css\about.css" />
     <Content Include="static\css\base.css" />
     <Content Include="static\css\book.css" />
@@ -104,6 +135,8 @@
     <Content Include="static\images\top.jpg" />
     <Content Include="static\images\topPic1.jpg" />
     <Content Include="static\images\topPic2.jpg" />
+    <Content Include="static\images\topPic3.jpg" />
+    <Content Include="static\images\topPic4.jpg" />
     <Content Include="static\images\yu.png" />
     <Content Include="static\js\changyan.labs.https.js" />
     <Content Include="static\js\changyan_mobile.js" />
@@ -143,6 +176,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="main\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="main\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="main\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="main\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -150,9 +187,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="sqlserver\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
