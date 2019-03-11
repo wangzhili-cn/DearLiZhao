@@ -39,6 +39,26 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=e44a2bc38ed2c13c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\新建文件夹\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\..\新建文件夹\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\..\新建文件夹\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\新建文件夹\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception">
+      <HintPath>..\..\新建文件夹\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\新建文件夹\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -137,6 +157,7 @@
     <Content Include="static\images\topPic2.jpg" />
     <Content Include="static\images\topPic3.jpg" />
     <Content Include="static\images\topPic4.jpg" />
+    <Content Include="static\images\topPic5.png" />
     <Content Include="static\images\yu.png" />
     <Content Include="static\js\changyan.labs.https.js" />
     <Content Include="static\js\changyan_mobile.js" />
@@ -167,19 +188,27 @@
     <Content Include="static\picture\f7863534e87db9039a52b8556868a718.jpg" />
     <Content Include="static\picture\fe148174719d230c71177e25e1702b9e.jpg" />
     <Content Include="static\picture\logo.png" />
-    <Content Include="Web.config" />
+    <Content Include="test\HtmlPage1.html" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="test\index2.html" />
     <Content Include="wechart\logo.png" />
     <Content Include="wechart\wechartCode.jpg" />
+    <Content Include="副本 index.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="test\test.ashx.cs">
+      <DependentUpon>test.ashx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="main\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="main\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="main\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="main\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="test\test.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -187,7 +216,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="handler\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -2,3 +2,10 @@ D:\Documents\GitHub\DearLiZhao\DearLiZhao\bin\DearLiZhao.dll
 D:\Documents\GitHub\DearLiZhao\DearLiZhao\bin\DearLiZhao.pdb
 D:\Documents\GitHub\DearLiZhao\DearLiZhao\obj\Debug\DearLiZhao.dll
 D:\Documents\GitHub\DearLiZhao\DearLiZhao\obj\Debug\DearLiZhao.pdb
+D:\Documents\GitHub\DearLiZhao\DearLiZhao\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Documents\GitHub\DearLiZhao\DearLiZhao\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Documents\GitHub\DearLiZhao\DearLiZhao\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Documents\GitHub\DearLiZhao\DearLiZhao\bin\Microsoft.Practices.Unity.dll
+D:\Documents\GitHub\DearLiZhao\DearLiZhao\bin\Microsoft.Practices.Unity.Interception.dll
+D:\Documents\GitHub\DearLiZhao\DearLiZhao\bin\Newtonsoft.Json.dll
+D:\Documents\GitHub\DearLiZhao\DearLiZhao\obj\Debug\DearLiZhao.csprojResolveAssemblyReference.cache

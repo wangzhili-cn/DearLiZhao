@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="../static/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#sp").click(function () {
+                ajaxFrm();
+            });
+        })
+      
+
+        function ajaxFrm() {
+            var userName = $("#userName").val();
+            $.ajax({
+                type: "POST",
+                url: "test.ashx",
+                data: { UserName: userName},
+                success: function (data) {
+                    if (data == "1") {
+                        alert("1");
+                    } else {
+                        alert("0");
+                    }
+                }
+            });
+        }
+
+    </script>
+
+</head>
+<body>
+    <input name="userName" id="userName" />
+    <span id="sp">123</span>
+</body>
+</html>
